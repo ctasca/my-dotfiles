@@ -84,5 +84,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # eval "$(rbenv init -)"
+
+# hem shell-init
 if which hem > /dev/null; then eval "$(hem shell-init zsh --skip-host-checks)"; fi
+
+# import zsh_aliases if exists
 if [ -f $HOME/.zsh_aliases ]; then . $HOME/.zsh_aliases; fi
+
+# reload tmuxinator autocompletion for ZSH
+if [ -f $HOME/.bin/tmuxinator.zsh ]; then . source $HOME/.bin/tmuxinator.zsh; fi
