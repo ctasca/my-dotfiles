@@ -22,7 +22,3 @@ if [ -f $HOME/.zsh_aliases ]; then . $HOME/.zsh_aliases; fi
 
 # reload tmuxinator autocompletion for ZSH
 if [ -f $HOME/.bin/tmuxinator.zsh ]; then . source $HOME/.bin/tmuxinator.zsh; fi
-
- # add exports
-if [ -f $HOME/.zsh_exports ]; then . $HOME/.zsh_exports; fi
-
