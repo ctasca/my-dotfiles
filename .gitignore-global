@@ -44,3 +44,8 @@ fabfile.pyc
 fab-install.sh
 inviqa
 .idea
+
+# Magento Dev Files #
+# ##################
+public/api-sales-order-info.php 
+public/api-sales-track.php 
