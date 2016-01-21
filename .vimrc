@@ -6,7 +6,6 @@ Bundle 'gmarik/vundle'
 Bundle 'altercation/vim-colors-solarized'
 filetype plugin indent off
 set runtimepath+=/usr/local/go/misc/vim
-filetype plugin indent on
 syntax enable
 set number
 set background=dark

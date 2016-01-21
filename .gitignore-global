@@ -51,3 +51,6 @@ public/api-sales-order-info.php
 public/api-sales-track.php 
 vagrant.pub
 public/api-order-add-comment.php
+
+# Sodastream project
+current

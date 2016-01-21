@@ -12,7 +12,7 @@ if [ -f $HOME/.zsh_exports ]; then . $HOME/.zsh_exports; fi
 source $ZSH/oh-my-zsh.sh
 
 # rbenv init
-eval "$(rbenv init -)"
+#eval "$(rbenv init -)"
 
 # hem shell-init
 if which hem > /dev/null; then eval "$(hem shell-init zsh --skip-host-checks)"; fi
