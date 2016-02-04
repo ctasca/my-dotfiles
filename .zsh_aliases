@@ -1,3 +1,4 @@
+# Git
 alias ±="git"
 alias ±s="git status"
 alias ±c="git commit"
@@ -12,3 +13,11 @@ alias ±puo="git push origin"
 alias ±nb="git checkout -b"
 alias ±sb="git checkout"
 alias ±mnff="git merge --no-ff"
+
+# Hem
+alias §="hem"
+alias §up="hem vm up"
+alias §st="hem vm start"
+alias §stp="hem vm stop"
+alias §destroy="hem vm destroy"
+alias §rbuild="hem vm rebuild"

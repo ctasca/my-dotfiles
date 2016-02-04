@@ -37,6 +37,9 @@ tmtagsHistory
 *.sublime-project
 *.sublime-workspace
 
+# Backup files #
+*.bak
+
 # Fabric           #
 ####################
 fabfile.py
