@@ -42,6 +42,7 @@ tmtagsHistory
 
 # Fabric           #
 ####################
+fabfile.ini
 fabfile.py
 fabfile.pyc
 fab-install.sh
