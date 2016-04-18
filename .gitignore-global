@@ -42,6 +42,8 @@ tmtagsHistory
 
 # Fabric           #
 ####################
+*.py
+*.pyc
 fabfile.ini
 fabfile.py
 fabfile.pyc
@@ -52,9 +54,18 @@ inviqa
 # Magento Dev Files #
 # ##################
 public/api-sales-order-info.php 
-public/api-sales-track.php 
+public/api-sales-track.php
+public/api-monitor.php 
 vagrant.pub
 public/api-order-add-comment.php
 
 # Sodastream project
 current
+
+# Radley project
+public/collection-limit-test.php
+public/test.php
+server-cert.pem
+server-key.pem
+Tideways.php
+tools/magento-task/
