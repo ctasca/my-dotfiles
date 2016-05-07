@@ -3,3 +3,4 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin"
 export EDITOR='vim'
 export HOMEBREW_GITHUB_API_TOKEN=""
 export DIGITALOCEAN_ACCESS_TOKEN=""
+export GOPATH="$HOME/go"
