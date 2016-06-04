@@ -1,6 +1,10 @@
 export ZSH=/Users/ctasca/.oh-my-zsh
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:$HOME/go/bin"
 export EDITOR='vim'
 export HOMEBREW_GITHUB_API_TOKEN=""
 export DIGITALOCEAN_ACCESS_TOKEN=""
+export DOCKER_HOST=
+export DOCKER_CERT_PATH=
+export DOCKER_TLS_VERIFY=
+export DOCKER_MACHINE_NAME=
 export GOPATH="$HOME/go"
