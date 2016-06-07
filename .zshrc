@@ -22,3 +22,5 @@ if [ -f $HOME/.zsh_aliases ]; then . $HOME/.zsh_aliases; fi
 
 # reload tmuxinator autocompletion for ZSH
 if [ -f $HOME/.bin/tmuxinator.zsh ]; then . source $HOME/.bin/tmuxinator.zsh; fi
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
